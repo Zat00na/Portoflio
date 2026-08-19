@@ -14,8 +14,8 @@ const DEFAULT_DATA = {
   },
   social: {
     behance: "https://www.behance.net/abdallahahmed",
-    instagram: "https://www.instagram.com/abdallah.designs",
-    linkedin: "https://www.linkedin.com/in/abdallah-ahmed-design",
+    instagram: "https://www.instagram.com/zyt00_na",
+    linkedin: "https://www.linkedin.com/in/abdallah-ahmed-0074903aa/",
     email: "abdallah.ahmed.anim@gmail.com"
   },
   about: {
@@ -89,7 +89,7 @@ const DEFAULT_DATA = {
       poster: "assets/project1-thumb.png",
       image: "assets/project1-thumb.png",
       behance: "https://www.behance.net/gallery/190001/Chronicles-of-Aethel",
-      instagram: "https://www.instagram.com/p/example1"
+      instagram: "https://www.instagram.com/zyt00_na"
     },
     {
       id: "proj-2",
@@ -101,7 +101,7 @@ const DEFAULT_DATA = {
       poster: "assets/project2-thumb.png",
       image: "assets/project2-thumb.png",
       behance: "https://www.behance.net/gallery/190002/Veloce-Motors",
-      instagram: "https://www.instagram.com/p/example2"
+      instagram: "https://www.instagram.com/zyt00_na"
     },
     {
       id: "proj-3",
@@ -113,7 +113,7 @@ const DEFAULT_DATA = {
       poster: "assets/project3-thumb.png",
       image: "assets/project3-thumb.png",
       behance: "https://www.behance.net/gallery/190003/Solaris-Explainer",
-      instagram: "https://www.instagram.com/p/example3"
+      instagram: "https://www.instagram.com/zyt00_na"
     },
     {
       id: "proj-4",
@@ -126,7 +126,7 @@ const DEFAULT_DATA = {
         "assets/project4-img2.png"
       ],
       behance: "https://www.behance.net/gallery/190004/Aura-Botanic",
-      instagram: "https://www.instagram.com/p/example4"
+      instagram: "https://www.instagram.com/zyt00_na"
     }
   ],
   education: [
@@ -313,6 +313,7 @@ function renderHero(data) {
     <a href="#projects" class="btn btn-primary">View Featured Work</a>
     <a href="${esc(social.behance)}" target="_blank" rel="noopener" class="btn btn-ghost">${socialSvg('behance', 18)}Behance</a>
     <a href="${esc(social.instagram)}" target="_blank" rel="noopener" class="btn btn-ghost">${socialSvg('instagram', 18)}Instagram</a>
+    <a href="${esc(social.linkedin)}" target="_blank" rel="noopener" class="btn btn-ghost">${socialSvg('linkedin', 18)}LinkedIn</a>
     <a href="mailto:${esc(social.email)}" class="btn btn-ghost">${socialSvg('email', 18)}Email</a>
   `;
 }
@@ -433,18 +434,25 @@ function renderContact(data) {
         <div class="contact-link-value">${esc(social.email)}</div>
       </div>
     </a>
+    <a href="${esc(social.instagram)}" target="_blank" rel="noopener" class="contact-link">
+      <div class="contact-link-icon">${socialSvg('instagram', 22)}</div>
+      <div>
+        <div class="contact-link-label">Instagram</div>
+        <div class="contact-link-value">@zyt00_na</div>
+      </div>
+    </a>
+    <a href="${esc(social.linkedin)}" target="_blank" rel="noopener" class="contact-link">
+      <div class="contact-link-icon">${socialSvg('linkedin', 22)}</div>
+      <div>
+        <div class="contact-link-label">LinkedIn</div>
+        <div class="contact-link-value">abdallah-ahmed</div>
+      </div>
+    </a>
     <a href="${esc(social.behance)}" target="_blank" rel="noopener" class="contact-link">
       <div class="contact-link-icon">${socialSvg('behance', 22)}</div>
       <div>
         <div class="contact-link-label">Behance Portfolio</div>
         <div class="contact-link-value">behance.net/abdallahahmed</div>
-      </div>
-    </a>
-    <a href="${esc(social.instagram)}" target="_blank" rel="noopener" class="contact-link">
-      <div class="contact-link-icon">${socialSvg('instagram', 22)}</div>
-      <div>
-        <div class="contact-link-label">Instagram</div>
-        <div class="contact-link-value">@abdallah.designs</div>
       </div>
     </a>
   `;
