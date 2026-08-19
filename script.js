@@ -1,5 +1,5 @@
 /* ============================================================
-   Taha Mohammed — Portfolio Script (data-driven)
+   Abdallah Ahmed — Portfolio Script (data-driven)
    All editable text/projects/experience live in data.json.
    ============================================================ */
 
