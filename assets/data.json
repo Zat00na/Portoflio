@@ -1,127 +1,146 @@
 {
   "hero": {
-    "badge": "Animator & Graphic Designer",
     "nameLine1": "Abdallah",
     "nameLine2": "Ahmed",
-    "tagline": "Crafting compelling visual stories through motion graphics, 2D/3D animation, and bold brand design.",
-    "profileImage": "assets/profile.png"
+    "badge": "Animator & Graphic Designer",
+    "tagline": "Bringing ideas to life through dynamic 2D/3D animation, kinetic motion design, and distinctive visual brand identities.",
+    "profileImage": "assets/profile.svg"
   },
   "social": {
     "behance": "https://www.behance.net/abdallahahmed",
-    "instagram": "https://www.instagram.com/abdallahahmed",
-    "linkedin": "https://www.linkedin.com/in/abdallah-ahmed",
-    "email": "abdallah.ahmed@example.com"
+    "instagram": "https://www.instagram.com/abdallah.designs",
+    "linkedin": "https://www.linkedin.com/in/abdallah-ahmed-design",
+    "email": "abdallah.ahmed.anim@gmail.com"
   },
   "about": {
-    "titleHtml": "Bringing stories to life through <span class=\"accent\">motion and visual design</span>",
+    "titleHtml": "Designing Worlds in <span class=\"accent\">Motion</span> & Form",
     "paragraphs": [
-      "I'm an Animator and Graphic Designer specializing in motion graphics, visual storytelling, and brand identity design.",
-      "I create dynamic visual experiences, combining bold design concepts with smooth animation to craft impactful visual narratives."
+      "I am an Animator and Graphic Designer specializing in character animation, 3D motion design, kinetic typography, and comprehensive brand identity systems.",
+      "With over 6 years of experience across commercial campaigns, game cinematics, and brand systems, I bridge the gap between creative visual artistry and strategic communication.",
+      "Whether directing a full-length animated explainer or crafting bespoke graphic identity assets, I focus on rhythm, emotion, and aesthetic precision."
     ],
     "stats": [
-      {
-        "number": "5+",
-        "label": "Years Experience"
-      },
-      {
-        "number": "40+",
-        "label": "Projects Completed"
-      },
-      {
-        "number": "2D/3D",
-        "label": "Animation Expertise"
-      }
+      { "number": "60+", "label": "Projects Completed" },
+      { "number": "6+", "label": "Years Experience" },
+      { "number": "30+", "label": "Brand Identities" },
+      { "number": "100%", "label": "Creative Focus" }
     ]
   },
   "skills": [
     {
-      "icon": "video",
       "group": "Animation & Motion",
+      "icon": "film",
       "items": [
-        {
-          "name": "After Effects"
-        },
-        {
-          "name": "Premiere Pro"
-        },
-        {
-          "name": "Blender"
-        },
-        {
-          "name": "Cinema 4D"
-        }
+        { "name": "After Effects", "icon": "motion" },
+        { "name": "2D Character Animation", "icon": "play" },
+        { "name": "Toon Boom Harmony", "icon": "brush" },
+        { "name": "Kinetic Typography", "icon": "type" },
+        { "name": "Lottie / Web Animation", "icon": "code" }
       ]
     },
     {
-      "icon": "palette",
-      "group": "Graphic & Brand Design",
+      "group": "3D Art & VFX",
+      "icon": "cube",
       "items": [
-        {
-          "name": "Photoshop"
-        },
-        {
-          "name": "Illustrator"
-        },
-        {
-          "name": "Figma"
-        },
-        {
-          "name": "Brand Identity"
-        }
+        { "name": "Blender 3D", "icon": "cube" },
+        { "name": "Cinema 4D", "icon": "cube" },
+        { "name": "Lighting & Shading", "icon": "sun" },
+        { "name": "Octane & Cycles", "icon": "render" },
+        { "name": "3D Camera Tracking", "icon": "camera" }
+      ]
+    },
+    {
+      "group": "Graphic & Brand Design",
+      "icon": "palette",
+      "items": [
+        { "name": "Adobe Illustrator", "icon": "vector" },
+        { "name": "Adobe Photoshop", "icon": "image" },
+        { "name": "Visual Identity Systems", "icon": "grid" },
+        { "name": "Poster & Editorial Design", "icon": "layout" },
+        { "name": "Packaging & Merch", "icon": "box" }
+      ]
+    },
+    {
+      "group": "Direction & Storytelling",
+      "icon": "sparkles",
+      "items": [
+        { "name": "Storyboarding & Animatic", "icon": "film" },
+        { "name": "Concept & Color Scripting", "icon": "palette" },
+        { "name": "Visual Development", "icon": "brush" },
+        { "name": "Sound Design & Sync", "icon": "music" },
+        { "name": "Styleframes & Pitching", "icon": "grid" }
       ]
     }
   ],
   "projects": [
     {
-      "title": "3D Character Animation Showreel",
-      "tag": "Animation",
-      "desc": "A dynamic showcase of 3D character rigging, expressive movements, and realistic lighting setups.",
-      "tools": [
-        "Blender",
-        "After Effects"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "src": "assets/showreel.mp4",
-          "poster": "assets/project1_thumb.png",
-          "alt": "3D Character Reel"
-        },
-        {
-          "type": "image",
-          "src": "assets/project1_frame1.png",
-          "alt": "Animation Frame 1"
-        }
-      ]
+      "id": "proj-1",
+      "title": "Chronicles of Aethel — 3D Animation Reel",
+      "tag": "3D Animation / Reel",
+      "type": "video",
+      "desc": "A dynamic 3D animation showcase highlighting character rigging, dramatic camera direction, and lighting in Blender.",
+      "tech": ["Blender 3D", "Cinema 4D", "Octane", "After Effects"],
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
+      "poster": "assets/project1-thumb.svg",
+      "behance": "https://www.behance.net/gallery/190001/Chronicles-of-Aethel",
+      "instagram": "https://www.instagram.com/p/example1"
     },
     {
-      "title": "Brand Identity & Motion Graphics",
-      "tag": "Graphic Design",
-      "desc": "End-to-end visual identity system including logo design, color palettes, and motion graphics packages.",
-      "tools": [
-        "Illustrator",
-        "Photoshop",
-        "After Effects"
+      "id": "proj-2",
+      "title": "Veloce Motion Identity & Kinetic Launch",
+      "tag": "Motion Design",
+      "type": "video",
+      "desc": "Energetic typography animations and futuristic motion graphics package for a high-performance EV brand.",
+      "tech": ["After Effects", "Illustrator", "Cinema 4D", "Premiere Pro"],
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-with-charts-and-data-31913-large.mp4",
+      "poster": "assets/project2-thumb.svg",
+      "behance": "https://www.behance.net/gallery/190002/Veloce-Motors",
+      "instagram": "https://www.instagram.com/p/example2"
+    },
+    {
+      "id": "proj-3",
+      "title": "Solaris Energy — 2D Character Explainer",
+      "tag": "2D Animation",
+      "type": "video",
+      "desc": "Handcrafted character animation and vector motion graphics explaining clean renewable energy systems.",
+      "tech": ["Toon Boom", "After Effects", "Illustrator", "Audition"],
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-geometric-animation-with-neon-shapes-and-lines-41584-large.mp4",
+      "poster": "assets/project3-thumb.svg",
+      "behance": "https://www.behance.net/gallery/190003/Solaris-Explainer",
+      "instagram": "https://www.instagram.com/p/example3"
+    },
+    {
+      "id": "proj-4",
+      "title": "Aura Botanic — Luxury Identity & Packaging",
+      "tag": "Brand & Graphic Design",
+      "type": "gallery",
+      "desc": "Comprehensive visual identity, bespoke serif typography, gold-foil packaging layout, and 3D renders.",
+      "tech": ["Illustrator", "Photoshop", "Blender", "Brand Strategy"],
+      "images": [
+        { "src": "assets/project4-img1.svg", "alt": "Aura Botanic Brand Identity" },
+        { "src": "assets/project4-img2.svg", "alt": "Aura Botanic Packaging Details" }
       ],
-      "media": [
-        {
-          "type": "image",
-          "src": "assets/project2_thumb.png",
-          "alt": "Brand Identity Overview"
-        }
-      ]
+      "behance": "https://www.behance.net/gallery/190004/Aura-Botanic",
+      "instagram": "https://www.instagram.com/p/example4"
     }
   ],
   "education": [
     {
-      "icon": "cap",
-      "degree": "B.A. in Visual Arts & Applied Design",
-      "school": "Faculty of Fine Arts",
-      "year": "2020 \u2013 2024",
-      "desc": "Focused on digital media, motion graphics, graphic design principles, and visual narrative techniques."
+      "degree": "Bachelor of Fine Arts (B.F.A.) in Digital Arts & Animation",
+      "school": "Faculty of Fine Arts & Applied Arts",
+      "year": "2018 — 2022",
+      "desc": "Graduated with honors. Specialized in 2D/3D character animation, classical animation principles, visual communication, and storyboarding.",
+      "icon": "cap"
+    },
+    {
+      "degree": "Advanced 3D Motion Graphics & Visual Development",
+      "school": "School of Motion / CG Master Academy",
+      "year": "2023",
+      "desc": "Mastery in 3D cinematography, procedural texturing, advanced character rigging, and commercial styleframe direction.",
+      "icon": "monitor"
     }
   ],
   "contact": {
-    "intro": "I'm open to freelance design projects, animations, and full-time creative roles. Feel free to reach out!"
+    "intro": "Have an animation reel, 3D commercial, or graphic design project in mind? Let's team up to build compelling visual experiences."
   }
 }
