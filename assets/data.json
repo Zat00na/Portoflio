@@ -1,25 +1,23 @@
 {
   "hero": {
-    "badge": "Machine Learning",
-    "nameLine1": "Taha",
-    "nameLine2": "Mohammed",
-    "tagline": "Building AI-driven solutions through machine learning, data analysis, and predictive modeling.",
+    "badge": "Animator",
+    "nameLine1": "Abdallah",
+    "nameLine2": "Ahmed",
+    "tagline": "Blending Design Theory with 2D/3D Pipelines to Bring Production-Ready Visual Stories to Life.",
     "profileImage": "assets/profile.png"
   },
 
   "social": {
-    "github": "https://github.com/Taha-M-H",
-    "linkedin": "https://www.linkedin.com/in/taha-mohammed-hussain",
+    "Behance": "https://github.com/Taha-M-H",
+    "linkedin": "https://www.linkedin.com/in/abdallah-ahmed-0074903aa/",
     "email": "taha.m.hussain.12@gmail.com"
   },
 
   "about": {
     "titleHtml": "Building <span class=\"accent\">AI-driven solutions</span> for real-world problems",
     "paragraphs": [
-      "I'm a Machine Learning & AI Engineer and FCAI-CU student, currently a Machine Learning Intern at NTI and Generative AI Intern at CIB, building on a completed Data Analyst Traineeship at DEPI. I apply Python, SQL, Excel, Power BI, and Tableau to real-world data problems, backed by strong programming fundamentals in C++.",
-      "I'm skilled at analyzing complex datasets, building predictive models and dashboards, and delivering actionable insights that drive decisions.",
-      "Aspire Leadership Program participant and ALX Voltra volunteer, with hands-on experience leading community initiatives and driving team execution. Bilingual, highly motivated, and passionate about applying AI-driven solutions to real-world challenges — open to connecting with professionals and teams working on impactful AI and data projects."
-    ],
+      "I am an Animation and Graphic Design student at the Faculty of Applied Arts at City University in Cairo. By bridging fundamental design theory with modern 2D and 3D pipelines, I bring production-ready visual stories to life. My expertise covers the complete creative lifecycle—from initial pre-production concepts, character design, and storyboarding to 3D modeling, motion graphics, and final post-production compositing..",
+      "Leveraging my background in both static graphic design and dynamic motion, I focus on creating assets that are visually compelling, technically clean, and optimized for seamless hand-off in collaborative team environments."
     "stats": [
       { "number": "6+", "label": "Core Technologies" },
       { "number": "100K+", "label": "Rows Analyzed" },
