@@ -1,0 +1,21 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="p4-bg" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2E28"/>
+      <stop offset="1" stop-color="#0E1A16"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p4-bg)"/>
+  
+  <!-- Luxury Packaging & Botanical Graphic Elements -->
+  <rect x="260" y="75" width="280" height="300" rx="14" fill="#EDE3D3" stroke="#D9581E" stroke-width="2"/>
+  <circle cx="400" cy="180" r="50" fill="none" stroke="#1B2E28" stroke-width="2"/>
+  <path d="M400 145 C385 165 385 195 400 215 C415 195 415 165 400 145 Z" fill="#D9581E"/>
+  
+  <text x="400" y="270" font-family="'Syne', sans-serif" font-size="24" fill="#1B2E28" font-weight="800" text-anchor="middle" letter-spacing="4">AURA</text>
+  <text x="400" y="295" font-family="'DM Sans', sans-serif" font-size="12" fill="#5A5550" font-weight="600" text-anchor="middle" letter-spacing="3">BOTANIC ESSENCE</text>
+  <line x1="330" y1="315" x2="470" y2="315" stroke="#D9581E" stroke-width="1.5"/>
+  
+  <rect x="30" y="30" width="170" height="32" rx="6" fill="#1B2E28" stroke="#EDE3D3" stroke-width="1"/>
+  <text x="115" y="51" font-family="'DM Sans', sans-serif" font-size="11" fill="#EDE3D3" font-weight="700" text-anchor="middle" letter-spacing="1.5">BRAND IDENTITY</text>
+</svg>
