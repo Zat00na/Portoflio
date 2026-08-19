@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "badge": "Machine Learning",
+    "nameLine1": "Taha",
+    "nameLine2": "Mohammed",
+    "tagline": "Building AI-driven solutions through machine learning, data analysis, and predictive modeling.",
+    "profileImage": "assets/profile.png"
+  },
+
+  "social": {
+    "github": "https://github.com/Taha-M-H",
+    "linkedin": "https://www.linkedin.com/in/taha-mohammed-hussain",
+    "email": "taha.m.hussain.12@gmail.com"
+  },
+
+  "about": {
+    "titleHtml": "Building <span class=\"accent\">AI-driven solutions</span> for real-world problems",
+    "paragraphs": [
+      "I'm a Machine Learning & AI Engineer and FCAI-CU student, currently a Machine Learning Intern at NTI and Generative AI Intern at CIB, building on a completed Data Analyst Traineeship at DEPI. I apply Python, SQL, Excel, Power BI, and Tableau to real-world data problems, backed by strong programming fundamentals in C++.",
+      "I'm skilled at analyzing complex datasets, building predictive models and dashboards, and delivering actionable insights that drive decisions.",
+      "Aspire Leadership Program participant and ALX Voltra volunteer, with hands-on experience leading community initiatives and driving team execution. Bilingual, highly motivated, and passionate about applying AI-driven solutions to real-world challenges — open to connecting with professionals and teams working on impactful AI and data projects."
+    ],
+    "stats": [
+      { "number": "6+", "label": "Core Technologies" },
+      { "number": "100K+", "label": "Rows Analyzed" },
+      { "number": "2", "label": "Internships" },
+      { "number": "2", "label": "Spoken Languages" }
+    ]
+  },
+
+  "experience": [
+    {
+      "icon": "building",
+      "title": "Generative AI Intern",
+      "org": "CIB — Commercial International Bank",
+      "period": "2026 · Current",
+      "desc": "Working on generative AI applications within a banking environment, applying LLM-based tools to real business use cases."
+    },
+    {
+      "icon": "clock",
+      "title": "Machine Learning Intern",
+      "org": "National Telecommunication Institute (NTI)",
+      "period": "2026 · Current",
+      "desc": "Building and training ML models as part of a structured technical training track, covering the full pipeline from data prep to model evaluation."
+    },
+    {
+      "title": "Event Organizer, Volunteer & Alumnus",
+      "org": "ALX Voltra Wave 2",
+      "period": "2025 – 2026",
+      "desc": "Organized SecureX 2026, a 2-day cybersecurity awareness event, and contributed to community engagement initiatives for Voltra Wave 2. Part of a team that won 1st place in the program's internal pitch competition, combining event strategy with stakeholder presentation skills.",
+      "images": [
+        { "src": "assets/voltra_pic_1.png", "alt": "ALX Voltra event photo 1" },
+        { "src": "assets/voltra_pic_2.png", "alt": "ALX Voltra event photo 2" },
+        { "src": "assets/voltra_pic_3.png", "alt": "ALX Voltra event photo 3" }
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "icon": "code",
+      "group": "Programming & Data",
+      "items": [
+        { "name": "Python"},
+        { "name": "MySQL" },
+        { "name": "C++" }
+      ]
+    },
+    
+    {
+    "icon": "cpu",
+    "group": "Python Libraries",
+    "items": [
+      { "name": "pandas" },
+      { "name": "numpy" },
+      { "name": "scikit-learn" },
+      { "name": "matplotlib/seaborn" }
+    ]
+  },
+    {
+      "icon": "brain",
+      "group": "Machine Learning",
+      "items": [
+        { "name": "Logistic Regression"},
+        { "name": "KNN" },
+        { "name": "Naive Bayes" },
+        { "name": "Decision Trees" },
+        { "name": "SVM" }
+      ]
+    },
+    {
+      "icon": "chart",
+      "group": "Data Analysis",
+      "items": [
+        { "name": "Statistics", "icon": "bars" },
+        { "name": "Data Cleaning", "icon": "clean" },
+        { "name": "Exploratory Analysis", "icon": "search" }
+      ]
+    },
+    {
+      "icon": "grid",
+      "group": "Visualization",
+      "items": [
+        { "name": "Power BI" },
+        { "name": "Tableau" },
+        { "name": "Excel" }
+      ]
+    },
+    {
+      "icon": "language",
+      "group": "Languages",
+      "items": [
+        { "name": "English" },
+        { "name": "Arabic" }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "ML Flight Price Perdiction",
+      "tag": "Machine Learning",
+      "desc": "Built an end-to-end ML system predicting airline ticket prices using a Random Forest Regressor (R²=0.983), covering data preprocessing, EDA, and hyperparameter tuning. Deployed via a FastAPI backend with an interactive HTML/JS dashboard for real-time predictions. Collaborated in a 5-person team.",
+      "tech": ["Python", "pandas", "Scikit-learn"],
+      "github": "https://github.com/farha-mohamed/flight_price_prediction",
+      "images": [
+        { "src": "assets/project3_pic_1.png", "alt": "ML Dashboard 1" },
+        { "src": "assets/project3_pic_2.png", "alt": "ML Dashboard 2" },
+        { "src": "assets/project3_pic_3.png", "alt": "ML Code snippet" }
+      ]
+    },
+    {
+      "title": "Olist E-Commerce Data Analysis",
+      "tag": "E-Commerce Analytics",
+      "desc": "A comprehensive end-to-end analysis of the Brazilian Olist marketplace dataset covering 100K+ orders. Explored sales trends, customer behavior, delivery performance, and payment patterns through a star-schema data model and interactive dashboards.",
+      "tech": ["Excel", "Data Modeling", "DAX"],
+      "github": "https://github.com/Taha-M-H/Oilst-Data-Analysis-Project",
+      "images": [
+        { "src": "assets/project_pic_1.png", "alt": "Olist Dashboard 1" },
+        { "src": "assets/project_pic_2.png", "alt": "Olist Dashboard 2" },
+        { "src": "assets/project_pic_3.png", "alt": "Olist Dashboard 3" }
+      ]
+    },
+    {
+      "title": "Medical Insurance Analytics — DEPI Capstone",
+      "tag": "Healthcare Analytics",
+      "desc": "Built an end-to-end analytics pipeline on a 100K-record dataset: designed a star-schema data warehouse in SQL, processed and modeled the data in Python, and delivered interactive Power BI and Tableau dashboards (heatmaps, scatter plots, box plots, custom filters). Presented findings with a 3-person team to stakeholders.",
+      "tech": ["SQL", "Python", "Power BI", "Tableau"],
+      "github": "https://github.com/Taha-M-H/DEPI-Capstone-Project",
+      "images": [
+        { "src": "assets/project2_pic_1.png", "alt": "DEPI Capstone Dashboard 1" },
+        { "src": "assets/project2_pic_2.png", "alt": "DEPI Capstone Dashboard 2" },
+        { "src": "assets/project2_pic_3.png", "alt": "DEPI Capstone Dashboard 3" }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "icon": "cap",
+      "degree": "B.Sc. Computer Science & Artificial Intelligence",
+      "school": "Cairo University",
+      "year": "2025 – 2029",
+      "desc": "Studying core computer science fundamentals alongside AI and machine learning, with a focus on data-driven problem solving, algorithms, and intelligent systems."
+    },
+    {
+      "icon": "monitor",
+      "degree": "Digital Egypt Pioneers Initiative (DEPI) — Data Analyst Traineeship",
+      "school": "Ministry of Communications & IT — Egypt",
+      "year": "2025 – 2026 · Completed",
+      "desc": "National digital upskilling program covering data analysis, Power BI, Python, SQL, and professional analytics workflows. Completed with a medical insurance analytics capstone project built on a 100K-record dataset."
+    }
+  ],
+
+  "contact": {
+    "intro": "I'm open to freelance projects, collaborations, and full-time data roles. Feel free to reach out — I'd love to hear from you."
+  }
+}
