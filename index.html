@@ -3,122 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdallah Ahmed — Animator & Graphic Designer</title>
+  <title>Abdallah Ahmed — Animator &amp; Graphic Designer</title>
+  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
-  
-  <style>
-    /* Color Palette Variables */
-    :root {
-      --bg-color: #EDE3D3;       /* Warm Cream */
-      --primary-color: #D9581E;  /* Terracotta Orange */
-      --accent-color: #1B2E28;   /* Deep Forest Green */
-      --text-color: #2A2A2A;     /* Dark Charcoal */
-      --white: #FFFFFF;
-    }
-
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: 'DM Sans', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    h1, h2, h3, h4, .nav-logo-text {
-      font-family: 'Syne', sans-serif;
-      color: var(--accent-color);
-    }
-
-    a {
-      color: var(--primary-color);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    /* Primary Interactive Buttons */
-    .btn, button, .cta-button {
-      background-color: var(--primary-color);
-      color: var(--white);
-      border: 2px solid var(--primary-color);
-      padding: 12px 24px;
-      font-size: 1rem;
-      font-weight: 600;
-      border-radius: 6px;
-      cursor: pointer;
-      display: inline-block;
-      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    }
-
-    .btn:hover, button:hover, .cta-button:hover {
-      background-color: var(--accent-color);
-      border-color: var(--accent-color);
-      color: var(--white);
-      transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(27, 46, 40, 0.2);
-    }
-
-    /* Layout & Cards */
-    .section-title {
-      border-bottom: 2px solid var(--accent-color);
-      padding-bottom: 10px;
-    }
-
-    .accent {
-      color: var(--primary-color);
-    }
-
-    /* Optimized Project Layout (Max Visual Focus on Media) */
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 30px;
-    }
-
-    .project-card {
-      background: rgba(27, 46, 40, 0.05);
-      border: 1px solid var(--accent-color);
-      border-radius: 8px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* Media Container Enlarge & Full Support for Embedded/Playable Video */
-    .project-media-wrap {
-      width: 100%;
-      height: 380px; 
-      background-color: #000;
-      overflow: hidden;
-    }
-
-    .project-media-wrap img,
-    .project-media-wrap video,
-    .project-media-wrap iframe {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border: none;
-    }
-
-    /* Minimal Text Container */
-    .project-content {
-      padding: 12px 16px;
-      flex-grow: 0;
-    }
-
-    .project-title {
-      font-size: 1.1rem;
-      margin: 0 0 4px 0;
-    }
-
-    .project-desc {
-      font-size: 0.85rem;
-      margin: 0;
-      color: var(--text-color);
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -147,18 +36,16 @@
     <div class="grid-overlay"></div>
     <div class="hero-inner">
       <div class="hero-image-wrap">
-        <img id="hero-profile-img" src="" alt="Abdallah Ahmed" class="hero-profile-img" />
+        <img id="hero-profile-img" src="assets/profile.svg" alt="Abdallah Ahmed — Animator & Graphic Designer" class="hero-profile-img" />
       </div>
       <div class="hero-content">
         <div class="hero-badge">
           <span id="hero-badge-svg"></span>
-          <span id="hero-badge-text">Animator & Graphic Designer</span>
+          <span id="hero-badge-text"></span>
         </div>
-        <h1 class="hero-name" id="hero-name">Abdallah Ahmed</h1>
-        <p class="hero-tagline" id="hero-tagline">Bringing visual ideas to life through dynamic motion and compelling design.</p>
-        <div class="hero-cta" id="hero-cta">
-          <a href="#projects" class="btn">View Work</a>
-        </div>
+        <h1 class="hero-name" id="hero-name"></h1>
+        <p class="hero-tagline" id="hero-tagline"></p>
+        <div class="hero-cta" id="hero-cta"></div>
       </div>
     </div>
     <div class="scroll-indicator"><span>Scroll</span><div class="scroll-line"></div></div>
@@ -169,10 +56,8 @@
       <div class="section-label">01 / About</div>
       <div class="about-grid">
         <div class="about-text">
-          <h2 class="section-title" id="about-title">Crafting Stories Through Motion & Visuals</h2>
-          <div id="about-paragraphs">
-            <p>I am Abdallah Ahmed, an Animator and Graphic Designer specializing in 2D/3D animation, motion graphics, and visual brand identities.</p>
-          </div>
+          <h2 class="section-title" id="about-title"></h2>
+          <div id="about-paragraphs"></div>
         </div>
         <div class="about-stats" id="about-stats"></div>
       </div>
@@ -190,24 +75,11 @@
   <section class="section projects" id="projects">
     <div class="container">
       <div class="section-label">03 / Projects</div>
-      <h2 class="section-title">Featured <span class="accent">Work</span></h2>
-      <div class="projects-grid" id="projects-grid">
-        
-        <!-- Example Project Card Supporting Video/Images with Maximized Media Ratio -->
-        <div class="project-card">
-          <div class="project-media-wrap">
-            <video controls poster="placeholder-thumb.jpg">
-              <source src="showreel.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">3D Character Animation Reel</h3>
-            <p class="project-desc">Motion design & frame-by-frame animation showcase.</p>
-          </div>
-        </div>
-
+      <div class="section-header-wrap">
+        <h2 class="section-title">Featured <span class="accent">Work</span></h2>
+        <p class="section-subtitle">Showcasing dynamic 3D reels, kinetic motion systems, 2D animations, and brand identities.</p>
       </div>
+      <div class="projects-grid" id="projects-grid"></div>
     </div>
   </section>
 
@@ -223,13 +95,10 @@
     <div class="container">
       <div class="section-label">05 / Contact</div>
       <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
-      <p class="contact-intro" id="contact-intro">Have a creative project or animation in mind?</p>
+      <p class="contact-intro" id="contact-intro"></p>
       <div class="contact-grid">
         <div class="contact-left">
-          <div class="contact-links" id="contact-links">
-            <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer" class="btn">Behance</a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="btn">Instagram</a>
-          </div>
+          <div class="contact-links" id="contact-links"></div>
         </div>
         <div class="contact-right">
           <div class="message-panel">
@@ -253,10 +122,7 @@
         <span id="footer-logo-svg"></span>
         <span>Abdallah Ahmed</span>
       </div>
-      <div class="footer-links" id="footer-links">
-        <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer">Behance</a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-      </div>
+      <div class="footer-links" id="footer-links"></div>
     </div>
   </footer>
 
