@@ -4,7 +4,7 @@
     "nameLine2": "Ahmed",
     "badge": "Animator & Graphic Designer",
     "tagline": "Bringing ideas to life through dynamic 2D/3D animation, kinetic motion design, and distinctive visual brand identities.",
-    "profileImage": "assets/profile.svg"
+    "profileImage": "assets/profile.png"
   },
   "social": {
     "behance": "https://www.behance.net/abdallahahmed",
@@ -13,7 +13,7 @@
     "email": "abdallah.ahmed.anim@gmail.com"
   },
   "about": {
-    "titleHtml": "Designing Worlds in <span class=\"accent\">Motion</span> & Form",
+    "titleHtml": "Designing Worlds in <span class=\"accent\">Motion</span> &amp; Form",
     "paragraphs": [
       "I am an Animator and Graphic Designer specializing in character animation, 3D motion design, kinetic typography, and comprehensive brand identity systems.",
       "With over 6 years of experience across commercial campaigns, game cinematics, and brand systems, I bridge the gap between creative visual artistry and strategic communication.",
@@ -31,44 +31,44 @@
       "group": "Animation & Motion",
       "icon": "film",
       "items": [
-        { "name": "After Effects", "icon": "motion" },
-        { "name": "2D Character Animation", "icon": "play" },
-        { "name": "Toon Boom Harmony", "icon": "brush" },
-        { "name": "Kinetic Typography", "icon": "type" },
-        { "name": "Lottie / Web Animation", "icon": "code" }
+        { "name": "After Effects" },
+        { "name": "2D Character Animation" },
+        { "name": "Toon Boom Harmony" },
+        { "name": "Kinetic Typography" },
+        { "name": "Lottie / Web Animation" }
       ]
     },
     {
       "group": "3D Art & VFX",
       "icon": "cube",
       "items": [
-        { "name": "Blender 3D", "icon": "cube" },
-        { "name": "Cinema 4D", "icon": "cube" },
-        { "name": "Lighting & Shading", "icon": "sun" },
-        { "name": "Octane & Cycles", "icon": "render" },
-        { "name": "3D Camera Tracking", "icon": "camera" }
+        { "name": "Blender 3D" },
+        { "name": "Cinema 4D" },
+        { "name": "Lighting & Shading" },
+        { "name": "Octane & Cycles" },
+        { "name": "3D Camera Tracking" }
       ]
     },
     {
       "group": "Graphic & Brand Design",
       "icon": "palette",
       "items": [
-        { "name": "Adobe Illustrator", "icon": "vector" },
-        { "name": "Adobe Photoshop", "icon": "image" },
-        { "name": "Visual Identity Systems", "icon": "grid" },
-        { "name": "Poster & Editorial Design", "icon": "layout" },
-        { "name": "Packaging & Merch", "icon": "box" }
+        { "name": "Adobe Illustrator" },
+        { "name": "Adobe Photoshop" },
+        { "name": "Visual Identity Systems" },
+        { "name": "Poster & Editorial Design" },
+        { "name": "Packaging & Merch" }
       ]
     },
     {
       "group": "Direction & Storytelling",
       "icon": "sparkles",
       "items": [
-        { "name": "Storyboarding & Animatic", "icon": "film" },
-        { "name": "Concept & Color Scripting", "icon": "palette" },
-        { "name": "Visual Development", "icon": "brush" },
-        { "name": "Sound Design & Sync", "icon": "music" },
-        { "name": "Styleframes & Pitching", "icon": "grid" }
+        { "name": "Storyboarding & Animatic" },
+        { "name": "Concept & Color Scripting" },
+        { "name": "Visual Development" },
+        { "name": "Sound Design & Sync" },
+        { "name": "Styleframes & Pitching" }
       ]
     }
   ],
@@ -77,11 +77,11 @@
       "id": "proj-1",
       "title": "Chronicles of Aethel — 3D Animation Reel",
       "tag": "3D Animation / Reel",
-      "type": "video",
       "desc": "A dynamic 3D animation showcase highlighting character rigging, dramatic camera direction, and lighting in Blender.",
       "tech": ["Blender 3D", "Cinema 4D", "Octane", "After Effects"],
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
-      "poster": "assets/project1-thumb.svg",
+      "video": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
+      "poster": "assets/project1-thumb.png",
+      "image": "assets/project1-thumb.png",
       "behance": "https://www.behance.net/gallery/190001/Chronicles-of-Aethel",
       "instagram": "https://www.instagram.com/p/example1"
     },
@@ -89,11 +89,11 @@
       "id": "proj-2",
       "title": "Veloce Motion Identity & Kinetic Launch",
       "tag": "Motion Design",
-      "type": "video",
       "desc": "Energetic typography animations and futuristic motion graphics package for a high-performance EV brand.",
       "tech": ["After Effects", "Illustrator", "Cinema 4D", "Premiere Pro"],
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-with-charts-and-data-31913-large.mp4",
-      "poster": "assets/project2-thumb.svg",
+      "video": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-with-charts-and-data-31913-large.mp4",
+      "poster": "assets/project2-thumb.png",
+      "image": "assets/project2-thumb.png",
       "behance": "https://www.behance.net/gallery/190002/Veloce-Motors",
       "instagram": "https://www.instagram.com/p/example2"
     },
@@ -101,11 +101,11 @@
       "id": "proj-3",
       "title": "Solaris Energy — 2D Character Explainer",
       "tag": "2D Animation",
-      "type": "video",
       "desc": "Handcrafted character animation and vector motion graphics explaining clean renewable energy systems.",
       "tech": ["Toon Boom", "After Effects", "Illustrator", "Audition"],
-      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-geometric-animation-with-neon-shapes-and-lines-41584-large.mp4",
-      "poster": "assets/project3-thumb.svg",
+      "video": "https://assets.mixkit.co/videos/preview/mixkit-geometric-animation-with-neon-shapes-and-lines-41584-large.mp4",
+      "poster": "assets/project3-thumb.png",
+      "image": "assets/project3-thumb.png",
       "behance": "https://www.behance.net/gallery/190003/Solaris-Explainer",
       "instagram": "https://www.instagram.com/p/example3"
     },
@@ -113,12 +113,11 @@
       "id": "proj-4",
       "title": "Aura Botanic — Luxury Identity & Packaging",
       "tag": "Brand & Graphic Design",
-      "type": "gallery",
       "desc": "Comprehensive visual identity, bespoke serif typography, gold-foil packaging layout, and 3D renders.",
       "tech": ["Illustrator", "Photoshop", "Blender", "Brand Strategy"],
       "images": [
-        { "src": "assets/project4-img1.svg", "alt": "Aura Botanic Brand Identity" },
-        { "src": "assets/project4-img2.svg", "alt": "Aura Botanic Packaging Details" }
+        "assets/project4-img1.png",
+        "assets/project4-img2.png"
       ],
       "behance": "https://www.behance.net/gallery/190004/Aura-Botanic",
       "instagram": "https://www.instagram.com/p/example4"
