@@ -156,17 +156,10 @@
   "education": [
     {
       "icon": "cap",
-      "degree": "B.Sc. Computer Science & Artificial Intelligence",
-      "school": "Cairo University",
+      "degree": "BAA. Animation",
+      "school": "City University in Cairo",
       "year": "2025 – 2029",
-      "desc": "Studying core computer science fundamentals alongside AI and machine learning, with a focus on data-driven problem solving, algorithms, and intelligent systems."
-    },
-    {
-      "icon": "monitor",
-      "degree": "Digital Egypt Pioneers Initiative (DEPI) — Data Analyst Traineeship",
-      "school": "Ministry of Communications & IT — Egypt",
-      "year": "2025 – 2026 · Completed",
-      "desc": "National digital upskilling program covering data analysis, Power BI, Python, SQL, and professional analytics workflows. Completed with a medical insurance analytics capstone project built on a 100K-record dataset."
+      "desc": "Studying core Applied Art fundamentals Animation, Story Board, and Graphic design."
     }
   ],
 
